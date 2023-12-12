@@ -3,45 +3,6 @@
   <component name="EmulatorDisplays">
     <option name="displayStateByAvdFolder">
       <map>
-        <entry key="$USER_HOME$/.android/avd/Automotive_testing.avd">
-          <value>
-            <MultiDisplayState>
-              <option name="displayDescriptors">
-                <list>
-                  <DisplayDescriptor>
-                    <option name="height" value="1536" />
-                    <option name="width" value="1152" />
-                  </DisplayDescriptor>
-                  <DisplayDescriptor>
-                    <option name="displayId" value="6" />
-                    <option name="height" value="600" />
-                    <option name="width" value="400" />
-                  </DisplayDescriptor>
-                </list>
-              </option>
-              <option name="emulatorPanelState">
-                <EmulatorPanelState>
-                  <option name="splitPanel">
-                    <SplitPanelState>
-                      <option name="proportion" value="0.7191011309623718" />
-                      <option name="splitType" value="VERTICAL" />
-                      <option name="firstComponent">
-                        <EmulatorPanelState>
-                          <option name="displayId" value="0" />
-                        </EmulatorPanelState>
-                      </option>
-                      <option name="secondComponent">
-                        <EmulatorPanelState>
-                          <option name="displayId" value="6" />
-                        </EmulatorPanelState>
-                      </option>
-                    </SplitPanelState>
-                  </option>
-                </EmulatorPanelState>
-              </option>
-            </MultiDisplayState>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/.android/avd/New_Device_API_33.avd">
           <value>
             <MultiDisplayState>

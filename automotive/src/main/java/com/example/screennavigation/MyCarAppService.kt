@@ -25,7 +25,7 @@ class MyCarAppService : CarAppService() {
 class HelloWorldSession : Session() {
 
     override fun onCreateScreen(intent: Intent): Screen {
-        return HelloWorldScreen(carContext)
+        return MainScreen(carContext)
     }
 }
 
