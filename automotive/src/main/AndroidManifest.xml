@@ -18,7 +18,7 @@
             android:name="androidx.car.app.activity.CarAppActivity"
             android:exported="true"
             android:launchMode="singleTask"
-            android:label="Hello world">
+            android:label="Screen Navigation">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -8,7 +8,7 @@ import androidx.car.app.model.PaneTemplate
 import androidx.car.app.model.Row
 import androidx.car.app.model.Template
 
-class DetailScreen(carContext: CarContext, private val option: String) : Screen(carContext) {
+/*class DetailScreen(carContext: CarContext, private val option: String) : Screen(carContext) {
 
     override fun onGetTemplate(): Template {
         val row = Row.Builder().setTitle(option).build()
@@ -17,6 +17,15 @@ class DetailScreen(carContext: CarContext, private val option: String) : Screen(
             .setTitle("Details")
             .setHeaderAction(Action.BACK)
             .build()
+
+    }
+}*/
+
+class DetailScreen(carContext: CarContext, private val template: Template) : Screen(carContext) {
+
+    override fun onGetTemplate(): Template {
+
+        return template
 
     }
 }
